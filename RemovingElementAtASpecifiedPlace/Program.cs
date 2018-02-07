@@ -18,7 +18,7 @@ namespace RemovingElementAtASpecifiedPlace
                 }
             }
 
-            numbers.ForEach(number => Console.WriteLine(number));
+            numbers.ForEach(Console.WriteLine);
         }
     }
 }
