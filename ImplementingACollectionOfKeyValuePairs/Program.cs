@@ -71,18 +71,29 @@ namespace ImplementingACollectionOfKeyValuePairs
             elements.Add(key: thElement.Symbol, value: thElement);
         }
 
-        private void FindInDictionary(string symbol)
+        private static void FindInDictionary(string symbol)
         {
             Dictionary<string, Element> elements = BuildDictionary();
-            if (elements.ContainsKey(symbol)==false)
+            if (elements.ContainsKey(symbol) == false)
             {
-                Console.WriteLine(symbol+" not found");
+                Console.WriteLine(symbol + " not found");
             }
             else
             {
                 Element thElement = elements[symbol];
-                Console.WriteLine("found: "+ thElement.Name);
+                Console.WriteLine("found: " + thElement.Name);
             }
+        }
+
+        //Using the TryGetValue method to find an item
+        private static void FindInDictionary2(string symbol)
+        {
+            Dictionary<string, Element> elements = BuildDictionary();
+            Element thElement = null;
+            if (elements.TryGetValue(symbol, out thElement) == false)
+                Console.WriteLine(symbol + " not found");
+            else
+                Console.WriteLine("found: " + thElement.Name);
         }
 
 
