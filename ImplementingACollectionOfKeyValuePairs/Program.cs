@@ -99,7 +99,7 @@ namespace ImplementingACollectionOfKeyValuePairs
 
         static void Main(string[] args)
         {
-
+        FindInDictionary("K");
         }
     }
 }

@@ -5,7 +5,7 @@ namespace SortingACollection
 {
     class Program
     {
-        private static void listCars()
+        private static void ListCars()
         {
             var cars = new List<Car>
             {
@@ -22,8 +22,8 @@ namespace SortingACollection
 
             foreach (Car thisCar in cars)
             {
-                Console.Write(thisCar.Color.PadRight(5)+ " ");
-                Console.Write(thisCar.Speed.ToString()+" ");
+                Console.Write(thisCar.Color.PadRight(5) + " ");
+                Console.Write(thisCar.Speed.ToString() + " ");
                 Console.Write(thisCar.Name);
                 Console.WriteLine();
 
@@ -31,6 +31,7 @@ namespace SortingACollection
         }
         static void Main(string[] args)
         {
+            ListCars();
         }
     }
 }
