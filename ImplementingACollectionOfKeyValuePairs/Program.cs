@@ -71,6 +71,20 @@ namespace ImplementingACollectionOfKeyValuePairs
             elements.Add(key: thElement.Symbol, value: thElement);
         }
 
+        private void FindInDictionary(string symbol)
+        {
+            Dictionary<string, Element> elements = BuildDictionary();
+            if (elements.ContainsKey(symbol)==false)
+            {
+                Console.WriteLine(symbol+" not found");
+            }
+            else
+            {
+                Element thElement = elements[symbol];
+                Console.WriteLine("found: "+ thElement.Name);
+            }
+        }
+
 
         static void Main(string[] args)
         {
