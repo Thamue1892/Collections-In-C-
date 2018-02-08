@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemovingItemsInAList", "Rem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemovingElementAtASpecifiedPlace", "RemovingElementAtASpecifiedPlace\RemovingElementAtASpecifiedPlace.csproj", "{008160B3-E110-43C3-A31C-7DA64AA5C910}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementingACollectionOfKeyValuePairs", "ImplementingACollectionOfKeyValuePairs\ImplementingACollectionOfKeyValuePairs.csproj", "{C2CDD63A-D941-455C-B718-7060360C096B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{008160B3-E110-43C3-A31C-7DA64AA5C910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{008160B3-E110-43C3-A31C-7DA64AA5C910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{008160B3-E110-43C3-A31C-7DA64AA5C910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CDD63A-D941-455C-B718-7060360C096B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CDD63A-D941-455C-B718-7060360C096B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CDD63A-D941-455C-B718-7060360C096B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CDD63A-D941-455C-B718-7060360C096B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
